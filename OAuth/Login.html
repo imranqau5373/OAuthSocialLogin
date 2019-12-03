@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="Scripts/oauth/angular.min.js"></script>
+    <script src="Scripts/oauth/jquery-3.3.1.min.js"></script>
+    <script src="Scripts/oauth/social.js"></script>
+</head>
+<body>
+    <h1>Login With Social Media.</h1>
+    <div ng-app="socialLogin" ng-controller="loginController">
+        <div style="margin-bottom: 20px;">
+            <input type="button" value="Facebook Login" ng-click="facebookLogin()" /><br>
+        </div>
+        <div style="margin-bottom: 20px;">
+            <input type="button" value="Google Login" ng-click="googleLogin()" /><br>
+        </div>
+        <div style="margin-bottom: 20px;">
+            <input type="button" value="GitHub Login" ng-click="githubLogin()" /><br>
+        </div>
+  
+    </div>
+
+</body>
+</html>
